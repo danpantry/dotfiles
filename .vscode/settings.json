@@ -1,0 +1,66 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code, Consolas, Monaco, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "window.zoomLevel": 0,
+    "files.watcherExclude": {
+        "**/.git/objects/**": false,
+        "**/.git/subtree-cache/**": false,
+        "**/deps/**": true
+    },
+    "search.exclude": {
+        "**/deps/": true
+    },
+    "files.exclude": {
+        "**/_build": true,
+        "**/deps/": true,
+        "**/node_modules": true
+    },
+    "editor.fontLigatures": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.referencesCodeLens.enabled": true,
+    "[elixir]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+    "[markdown]": {},
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terraform.indexing": {
+        "enabled": true,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": false,
+        "args": []
+    },
+    "editor.lineHeight": 25,
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-vscode.csharp"
+    },
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.tabSize": 2
+}
